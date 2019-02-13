@@ -23,7 +23,7 @@ namespace kt
             [Test]
             public void NewTestScriptSimpleRun()
             {
-                Assert.IsTrue(false);
+                Assert.AreEqual(2, 1+1);
             }
 
             // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
